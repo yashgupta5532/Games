@@ -1,0 +1,57 @@
+.game-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    margin-top: 5rem;
+}
+
+.choices{
+    display: flex;
+
+}
+.choices .choice{
+    margin: 1vmax;
+}
+
+.choices img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.choices .choice:hover{
+    opacity: 0.75;
+}
+
+.score-board{
+    display: flex;
+    margin: 1vmax;
+}
+
+.score-board .score{
+    margin: 0 2vmax;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vmax;
+    background-color: rgb(205, 61, 224);
+    border-radius: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+.score-board .score p{
+    margin: 0 1.6vmax;
+}
+
+
+#win-lose{
+    background-color: rgb(110, 105, 105);
+    color: white;
+    padding: 1vmax;
+    border-radius: 13px;
+    cursor: pointer;
+}

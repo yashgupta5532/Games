@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#board{
+    height: 80vh;
+    width: 80vw;
+    margin: 4% auto;
+    display: grid;
+    grid-template-columns: repeat(18,1fr);
+    grid-template-rows: repeat(18,1fr);
+    background-color: lightblue;
+}
+.head{
+    background-color: purple;
+}
+.food{
+    background-color: green;
+}
+.snake{
+    background-color: red;
+}
